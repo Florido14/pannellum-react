@@ -13,6 +13,7 @@ export interface PannellumPropType {
   minHfov?:	number;
   maxPitch?:	number;
   minPitch?:	number;
+  loadLabel?: string;
   maxYaw?:	number;
   minYaw?:	number;
   autoRotate?:	number;
@@ -52,7 +53,6 @@ export interface PannellumVideoPropType {
   autoplay?:	boolean;
   controls?:	boolean;
   muted?:	boolean;
-
   width?:	string;
   height?:	string;
   video?:	string;
